@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="GOC-_1_.ico" type="image/x-icon">
+    <title>Conectar a GOLD CITY</title>
+</head>
+
+
+<body>
+
+    <!-- Seu conteúdo existente aqui -->
+
+    <script>
+        // Adicione o código abaixo para redirecionar automaticamente após um atraso
+        window.onload = function() {
+            setTimeout(function() {
+                // Substitua com o endereço IP e número de porta do seu servidor FiveM
+                var ip = "104.234.65.85";
+                var porta = "30120";
+
+                // Construa o link de conexão
+                var linkDeConexao = "fivem://connect/" + ip + ":" + porta;
+
+                // Redirecione o usuário para o link de conexão
+                window.location.href = linkDeConexao;
+            }, 1000); // Atraso de 3000 milissegundos (3 segundos)
+        };
+    </script>
+
+</body>
+</html>
